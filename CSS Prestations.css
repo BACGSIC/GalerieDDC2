@@ -1,0 +1,135 @@
+.subHeader
+{
+    background-color: #f6e9d1;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.presentationContainer 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.presentationContainerTitle 
+{
+    width: 100%;
+    background-color: #72887b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    font-family: "Inika", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mainContentContainer 
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 2rem 0rem;
+}
+
+.mainContentContainerEachCells 
+{
+    width: 27%;
+}
+
+.eachCellsImgsContainer 
+{
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.eachCellsImgsContainer img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgsContainerTitleContainer 
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #00000093;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    color: white;
+    padding: 2rem 0;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.mainContentContainerEachCells .mainText 
+{
+    width: 100%;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    padding: 0.4rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+.mainTextBolder 
+{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.mainTextBolder:hover
+{
+    font-size:23px;
+}
+
+.mainText:hover
+{
+    font-size:25px;
+}
+
+.imgsContainerTitleContainer:hover
+{
+    font-weight: bold;
+    color:red;
+    transition:4s;
+}
+
+.eachCellsImgsContainer:hover
+
+{
+    transform: scale(1.1) rotate(5deg);
+}
+
+@media screen and (max-width: 600px) 
+{
+    .mainContentContainer 
+    {
+        width: 100%;
+        gap: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mainContentContainer .mainContentContainerEachCells 
+    {
+        width: 80%;
+    }
+}
