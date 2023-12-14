@@ -1,0 +1,756 @@
+/* ----- HEADER -----  */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigationHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.bannerHeader {
+    width: 100%;
+    background-image: url("./images/bandeauSoutine.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+
+.imgNavigationContainer {
+    width: 12.5%;
+}
+
+.imgNavigationContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.listNavigationContainer {
+    width: 87.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.listNavigationContainer ul {
+    width: 70%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-bottom: solid 1px black;
+}
+
+.listNavigationContainer ul li {
+    padding: 0.5rem 2rem;
+}
+
+.active {
+    background-color: rgba(249, 233, 207, 1);
+}
+
+
+
+.bannerContentContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    background-color: rgba(0, 0, 0, 0.437);
+}
+
+.bannerContentContainer div {
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.bannerContentContainer div p {
+    font-size: 18px;
+}
+
+.bannerContentContainer div:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bannerContentContainer div button {
+    all: unset;
+    padding: 1.5rem 1.5rem;
+    background-color: rgba(156, 145, 125, 1);
+    border-radius: 45px;
+    font-size: 24px;
+}
+
+.bannerContentContainer div .size {
+    font-size: 40px;
+}
+
+
+/* --------- MEDIA QUERIES HEADER --------- */
+@media screen and (max-width: 600px) {
+    /* NAVIGATION HEADER */
+    .navigationHeader {
+        justify-content: center;
+    }
+    .imgNavigationContainer {
+        width: 18%;
+    }
+
+    .listNavigationContainer {
+        width: 78%;
+    }
+
+    .listNavigationContainer ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        justify-content: space-around;
+        height: 2rem;
+    }
+
+    .listNavigationContainer ul li {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .bannerHeader {
+        position: relative;
+    }
+
+    .bannerContentContainer {
+        width: 100%;
+    }
+
+    .bannerContentContainer div p,
+    button {
+        font-size: 14px;
+    }
+
+    .bannerContentContainer div button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .bannerContentContainer div .size {
+        font-size: 25px;
+    }
+
+    .bannerHeader .bannerContentContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bannerHeader .bannerContentContainer div {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .bannerContentContainer div:last-child {
+        width: auto;
+        position: absolute;
+        top: 10px;
+        right: 12px;
+    }
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.mainContentFooter {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 09rem;
+    background-color: rgba(246, 233, 209, 1);
+}
+
+.leftSideFooterContainer {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.centerFooterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    /* padding-left: 10rem; */
+}
+
+.rightFooterContainer {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-right: 4rem;
+    gap: 4rem;
+}
+
+.leftSideFooterContainer .leftSideFooterImgContainer img {
+    width: 100%;
+}
+
+.leftSideFooterContainer .leftSideFooterTextContainer li,
+.leftSideFooterContainer .leftSideFooterTextContainer p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.leftSideFooterContainer .leftSideFooterTextContainer ul {
+    margin: 0;
+    padding-left: 16px;
+    width: 80%;
+}
+
+.leftSideFooterContainer .leftSideFooterTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.centerFooterContainer .centerFooterSocialIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.rightFooterContainer img {
+    height: 70%;
+}
+.rightFooterContainer p {
+    text-decoration: underline;
+}
+
+.rightFooterContainer img:last-child {
+    height: 90%;
+}
+
+@media screen and (max-width: 600px) {
+    .mainContentFooter {
+        width: 100vw;
+        height: 6rem;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        margin-top: 1rem;
+    }
+
+    .leftSideFooterContainer {
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+        padding: 0;
+        gap: 0.4rem;
+    }
+    .leftSideFooterContainer .leftSideFooterTextContainer li,
+    .leftSideFooterContainer .leftSideFooterTextContainer p {
+        font-size: 10px;
+    }
+
+    .leftSideFooterContainer .leftSideFooterTextContainer ul {
+        margin: 0;
+        padding-left: 12px;
+        width: 90%;
+    }
+    .leftSideFooterContainer .leftSideFooterTextContainer ul li {
+        margin: 0;
+        width: 100%;
+    }
+    .leftSideFooterContainer .leftSideFooterImgContainer {
+        width: 20%;
+    }
+    .leftSideFooterContainer .leftSideFooterImgContainer img {
+        width: 100%;
+    }
+
+    .centerFooterContainer .centerFooterSocialIconContainer {
+        gap: 0.4rem;
+        width: 100%;
+        font-size: 10px;
+    }
+    .centerFooterContainer .centerFooterSocialIconContainer img {
+        width: 20%;
+    }
+
+    .rightFooterContainer {
+        width: 34%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 0.5rem;
+    }
+    .rightFooterContainer p {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+        padding-top: 0.5rem;
+    }
+    .rightFooterContainer img {
+        width: 30%;
+        height: auto;
+    }
+    .rightFooterContainer img:last-child {
+        width: 40%;
+        height: auto;
+    }
+}
+
+.lastPartFooter {
+    width: 100%;
+    background-color: rgba(142, 104, 82, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastPartFooter .mentionLegalContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.lastPartFooter .lastPartFooterTextContainer {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lastPartFooter .lastPartFooterTextContainer .size {
+    color: white;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .lastPartFooter * {
+        font-size: 8px;
+    }
+    .lastPartFooter .lastPartFooterTextContainer .size {
+        font-size: 12px;
+    }
+}
+
+header ul li:hover
+{
+color:#72887b;
+font-weight: bold;
+font-size: 25px;
+}
+
+.centerFooterContainer:hover
+{
+    color:rgba(142, 104, 82, 1);
+    font-size:20px;
+    font-weight: bold;
+    transition: 3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+.mainContainer .eachContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.eachContainer .titleContainer {
+    background-color: rgba(246, 234, 208, 1);
+    padding-left: 1.875rem;
+}
+
+.eachContainer .titleContainer h1 {
+    font-size: 35px;
+    font-family: "Inika", serif;
+}
+.eachContainer p,
+li,
+label,
+input {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+/* ---------Container 01-------------  */
+.container01 .contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+.container01 .contentContainer .eachContentContainer {
+    width: 48%;
+}
+.container01 .contentContainer .eachContentContainer01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container01 .contentContainer.eachContentContainer02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container01 .contentContainer .eachContentContainer02 img {
+    width: 85%;
+}
+
+/* ---------Container 02-------------  */
+
+.container02 .contentContainer {
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+/* ---------Container 03-------------  */
+.container03 .contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 2rem;
+}
+.container03 .contentContainer .eachContentContainer01 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form {
+    width: 100%;
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(249, 233, 207, 1);
+    gap: 1rem;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+    align-items: center;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form input {
+    width: 50%;
+    height: 1.5rem;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form label {
+    width: 35%;
+    text-align: right;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form .submitButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    padding-top: 1.5rem;
+}
+
+.container03
+    .contentContainer
+    .eachContentContainer01
+    .formInsideContainer03
+    form
+    .submitButton
+    button {
+    all: unset;
+    padding: 0.7rem 1.5rem;
+    background-color: rgb(205, 205, 205);
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.container03 .contentContainer .eachContentContainer02 {
+    width: 28%;
+}
+
+.container03 .contentContainer .eachContentContainer02 img {
+    margin-top: 24px;
+    width: 100%;
+}
+
+/* ---------Container 04-------------  */
+
+.container04 .contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+.container04 .contentContainer .eachContentContainer {
+    width: 48%;
+}
+
+.container04 .contentContainer .eachContentContainer01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: flex-start;
+}
+
+.container04 .contentContainer .eachContentContainer01 .firstPartText {
+    width: 40%;
+    text-align: center;
+}
+
+.container04 .contentContainer.eachContentContainer02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container04 .contentContainer .eachContentContainer02 img {
+    width: 85%;
+}
+
+/* RESPONSIVE  */
+
+/* POSSIBLE RESPONSIVE VERSIONS BEFORE 430 PX*/
+/* @media screen and (max-width: 1214px) {
+    .container03 .contentContainer {
+        justify-content: space-between;
+        padding: 2rem 4rem;
+    }
+    .container03 .contentContainer .eachContentContainer01 {
+        width: 60%;
+    }
+    .container03 .contentContainer .eachContentContainer02 {
+        width: 40%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 924px) {
+    .container03 .contentContainer {
+        flex-direction: column;
+        gap: 4rem;
+        padding-bottom: 2rem;
+    }
+    .container03 .contentContainer .eachContentContainer01 {
+        width: 100%;
+    }
+    .container03 .contentContainer .eachContentContainer02 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container04 .contentContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .container04 .contentContainer .eachContentContainer01 {
+        width: 80%;
+        margin: 1rem 2rem;
+    }
+    .container04 .contentContainer .eachContentContainer01 .firstPartText {
+        width: 80%;
+    }
+    .container04 .contentContainer .eachContentContainer01 .secondPartText {
+        width: 80%;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+    }
+    .container04 .contentContainer .eachContentContainer02 {
+        width: 100%;
+        text-align: center;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    .eachContainer p,
+    li,
+    label,
+    input {
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+    }
+    .titleContainer {
+        text-align: center;
+        padding: 0;
+    }
+
+    /* CONTAINER 1 RESPONSIVE*/
+    .container01 .contentContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container01 .contentContainer .eachContentContainer01 {
+        width: 80%;
+    }
+    .container01 .contentContainer .eachContentContainer02 {
+        width: 95%;
+        text-align: center;
+    }
+
+    /* CONTAINER 2 RESPONSIVE*/
+    .container02 .contentContainer {
+        padding: 1.5rem 1.3rem;
+    }
+
+    /* CONTAINER 3 RESPONSIVE*/
+    .container03 .contentContainer {
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-bottom: 2rem;
+    }
+    .container03 .contentContainer .eachContentContainer {
+        width: 85%;
+        text-align: center;
+        gap: 1.2rem;
+    }
+
+    .container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form {
+        width: 100%;
+    }
+
+    .container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form div {
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form div label {
+        text-align: left;
+        width: 70%;
+    }
+    .container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form div input {
+        width: 70%;
+        height: 2.5rem;
+    }
+
+    .container03
+        .contentContainer
+        .eachContentContainer01
+        .formInsideContainer03
+        form
+        .submitButton {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 95%;
+        padding-top: 2rem;
+    }
+    .container03
+        .contentContainer
+        .eachContentContainer01
+        .formInsideContainer03
+        form
+        .submitButton
+        button {
+        padding: 0.7rem 3rem;
+    }
+
+    /* CONTAINER 4 RESPONSIVE*/
+    .container04 .contentContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 1.5rem 0 0 0;
+    }
+    .container04 .contentContainer .eachContentContainer01 {
+        width: 98%;
+        margin: 1rem 0.2rem;
+    }
+    .container04 .contentContainer .eachContentContainer01 .firstPartText {
+        width: 80%;
+    }
+    .container04 .contentContainer .eachContentContainer01 .secondPartText {
+        width: 100%;
+        text-align: left;
+    }
+    .container04 .contentContainer .eachContentContainer02 {
+        padding: 1.2rem 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(246, 234, 208, 1);
+    }
+}
