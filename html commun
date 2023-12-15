@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <html>
+        <head>
+            <title>Galerie Dechewsky</title>
+            <meta charset="utf-8" />
+            <link rel="stylesheet" href="HeaderetFooter.css" />
+            <link rel="stylesheet" href="CSS commun.css" />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link
+                href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter&display=swap"
+                rel="stylesheet"
+            />
+            <meta name="viewport" content="width=device-width initial-scale=1.0" />
+            <script
+                src="https://kit.fontawesome.com/a89d872ece.js"
+                crossorigin="anonymous"
+            ></script>
+        </head>
+
+        <body>
+            <header>
+                <div class="navigationHeader">
+                    <div class="imgNavigationContainer">
+                        <img src="images/logogalerie.jpg" alt="logo" />
+                    </div>
+                    <div class="listNavigationContainer">
+                        <ul>
+                            <li>Accueil</li>
+                            <li>Expositions</li>
+                            <li>Prestations</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bannerHeader">
+                    <div class="bannerContentContainer">
+                        <div>
+                            <i class="fas fa-map-marker-alt size"></i>
+                            <p>
+                                10 RUE DE LA RÉPUBLIQUE 75000 PARIS <br />Tél : 01.63.45.85.56 Fax :
+                                01.63.45.78.52<br />
+                                Email : dedal@gmail.com
+                            </p>
+                        </div>
+                        <div>
+                            <i class="far fa-clock size"></i>
+                            <p>
+                                Ouvert du mardi au dimanche de 10h à 19h<br />
+                                Dernière admission à 18h
+                            </p>
+                        </div>
+                        <div>
+                            <button>
+                                <i class="fas fa-user" style="margin-right: 5px"></i> S'identifier
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+                /*-------ACCUEIL-------*/
+            
+    <p id="ATXT">Notre galerie se distingue par son choix hétéroclite de styles et d’artistes de renommée actuels ou passés. Ici vous passerez du baroque au rococo sans oublier le classicisme et bien évidemment au goût du jour avec le contemporain et le street-art.</p>
+
+      <p id="ExpoA">Exposition actuelle</p>
+
+      <div class="BEA">
+        <div class="AB1">
+            <span class="txt">Rémi Rembrandtsson (1620-1691)</span>
+        </div>
+        <div class="imgs1">
+            <img src="images/rembrandt style.png" id="image1" alt="image 1">
+            <img src="images/rembrandt style4.png" id="image2" alt="image 2">
+            <img src="images/rembrandt style3.png" id="image3" alt="image 3">
+        </div>
+        <div class="txts1">
+            <p id="texte1">“Les gardiens du crépuscule”  Huile sur toile, 54x87, 1643.</p>
+            <p id="texte2">“La paysante”  Huile sur toile, 44x80, 1667</p>
+            <p id="texte3">“La troisième main” Huile sur toile, 92 x 85 cm 1655-1657</p>
+        </div>
+      </div> 
+
+
+        <p id="ExpoB">Exposition à venir</p>
+
+        <div class="BAV">
+            <div class="AB2">
+                <span class="txt">Alex Wardell (1975-???)</span>
+            </div>
+            <div class="imgs2">
+                <img src="images/warhol 2.png" id="image4" alt="image 4">
+                <img src="images/warhol 1.png" id="image5" alt="image 5">
+                <img src="images/warhol 5.png" id="image6" alt="image 6">
+            </div>
+            <div class="txts2">
+                <p id="texte4">"Body Serie" Sériegraphie, 100 x 115, 1995</p>
+                <p id="texte5">"Autoportrait n.37" Sériegraphie, 90 x 90, 2008</p>
+                <p id="texte6">"Computer fever", Huile sur toile 30 x 30, 1998</p>
+            </div>
+        </div> 
+
+        <p id="ExpoB">Nous trouver</p>
+
+        <div class="BNT">
+            <div class="BNT1">
+                <div class="txts3">
+                    <p id="texte7">Horaires :</p>
+                    <p id="texte7">Mardi de 10h à 19h</p>
+                    <p id="texte7">Mercredi de 10h à 19h</p>
+                    <p id="texte7">Jeudi de 10h à 19h</p>
+                    <p id="texte7">Vendredi de 10h à 15h</p><br><br>
+                    <p id="texte7">Les dernières admissions se font une heure avant la fermeture.</p><br><br>
+                    <p id="texte7">Tél : 01.63.45.85.56 Fax : 01.63.45.78.52</p>
+                    <p id="texte7">Email : dedal@gmail.com</p><br><br>
+                    <p id="texte7">10 Rue de la République</p>
+                    <p id="texte7">75000 Paris - France</p>
+                </div>
+            </div>
+            <div class="BNT2">
+                <p id="texte8">10 Rue de la République - 75000 Paris - France</p>
+                <img src="images/plan.png" id="image7" alt="image 4">
+            </div>
+        </div> 
+
+
+    /*-------EXPOSITIONS-------*/
+            <main>
+                <div class="premierContainerRembrandtsson chaqueBlocPrincipal">
+                    <div class="preface">
+                        <p>Exposition actuelle du 10 Septembre 2023 au 20 Novembre 2023</p>
+                    </div>
+                    <div class="Rangee1 Rangee">
+                        <div class="Bloc1ereRangee BlocImage">
+                            <p>
+                                Remy Rembrandtsson est né le 12 mars 1620 à Leyde, aux Pays-Bas, au
+                                sein d’une famille d’artistes. Son père, un célèbre marchand d’art,
+                                l’encouragea dès son plus jeune âge à suivre sa passion pour la
+                                peinture. A l’âge de quinze ans, Remy entre en apprentissage chez le
+                                célèbre Johan van den Meer, qui l’initie à la technique du
+                                clair-obscur et à l’art de capturer la vérité de l’âme humaine sur
+                                la toile. C’est sous la tutelle bienveillante de van den Meer que
+                                Remy développe son style distinctif, caractérisé par un jeu subtil
+                                entre la lumière et l’ombre.
+                            </p>
+                        </div>
+                        <div class="Bloc2eRangee BlocImage">
+                            <img src="images/rembrandt style.png" alt="Image générée par une IA, tons de l'image marron, deux chiens sur une table"/>
+                            <p>"Les gardiens du crépuscule"<br />Huile sur toile, 73x60, 1643.</p>
+                        </div>
+                        <div class="Bloc3eRangee BlocImage">
+                            <img src="images/rembrandt style2.png" alt=" Autoportrait du peintre" />
+                            <p>"Le portrait mystérieux"<br />Huile sur toile, 54x87, 1660.</p>
+                        </div>
+
+                    </div>
+                    <div class="Rangee2 Rangee">
+                        <div class="Bloc1ereRangee BlocImage">
+                            <p>
+                                A l’âge de vingt-quatre ans, Remy ouvre son premier atelier à
+                                Amsterdam. Son talent exceptionnel pour les portraits et les scènes
+                                de genre lui vaut rapidement une reconnaissance dans le monde de
+                                l’art. Sa maîtrise du clair-obscur donne vie à ses oeuvres,
+                                conférant à ses sujets une présence presque palpable. Au fil des
+                                années, Remy se forge une réputation en tant que portraitiste
+                                émérite, notamment pour ses portraits intimes de la haute société de
+                                l’époque. Ses toiles captivent par la profondeur psychologique de
+                                ses personnages et la précision de sa technique. L’artiste atteint
+                                l’apogée de sa carrière au milieu du XVIIème siècle, avec des
+                                expositions à travers l’Europe qui suscitent l’admiration des
+                                connaisseurs d’art et influencent de nombreux artistes
+                                contemporains.
+                            </p>
+                        </div>
+                        <div class="Bloc2eRangee BlocImage">
+                            <img src="images/rembrandt style3.png" alt=" Portrait d'une paysane avec un chapeau" />
+                            <p>
+                                "La troisième main" Huile sur toile,<br />
+                                92x85, 1655-1657
+                            </p>
+                        </div>
+                        <div class="Bloc3eRangee BlocImage">
+                            <img src="images/rembrandt style4.png" alt=" Portrait du peintre de la tête aux pieds, assis, avec une troisième main derrière son dos" />
+                            <p>
+                                "La paysante" Huile<br />
+                                sur toile, 73x60, 1667
+                            </p>
+                        </div>
+   
+                    </div>
+                    <div class="Rangee3 Rangee">
+                        <div class="Bloc1ereRangee BlocImage">
+                            <p>
+                                Malgré le succès, Remy reste modeste et consacre une partie de ses
+                                revenus à soutenir de jeunes talents et à financer des projets
+                                artistiques communautaires. Sa générosité et son engagement envers
+                                l’art en font une figure respectée dans la communauté artistique de
+                                l’époque. Remy rembrandtsson décède paisiblement dans sa maison à
+                                Leyde le 15 novembre 1699, laissant derrière lui un héritage
+                                indélébile que nous avons le plaisir d’exposer dans notre galerie.
+                                Ses oeuvres continuent d’inspirer et de fasciner la amateurs du
+                                monde entier, perpétuant la mémoire de ce maître du clair-obscur du
+                                XVIIème siècle.
+                            </p>
+                            <p class="boldText">
+                                On vous attend ainsi nombreux pour admirer ces oeuvres du passé
+                                portant une profondeur si réelle.
+                            </p>
+                        </div>
+                        <div class="Bloc2eRangee BlocImage">
+                            <img src="images/rembrandt style5.png" id="img4" alt="Autoportait de Rembrandtsson " />
+                            <p>
+                                “Autoprotrait” Huile sur toile,<br />
+                                100 x 115 1695
+                            </p>
+                        </div>
+                        <div class="Bloc3eRangee BlocImage">
+                            <img src="images/rembrandt style6.png" id="img3" alt="paysage"/>
+                            <p>
+                                "“Amsterdrame”,Huile<br />
+                                sur toile,100 x 115, 1690
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="deuxiemeContainerWardell chaqueBlocPrincipal">
+                    <div class="preface">
+                        <p>Exposition à venir du 21 novembre 2023 au 12 janvier 2024</p>
+                    </div>
+                    <div class="Rangee1 Rangee">
+                        <div class="Bloc1ereRangee BlocImage">
+                            <p>
+                                Alex Wardell, né le 3 avril 1975 à Boston, est un artiste américain
+                                contemporain renommé pour son style artistique emblématique. Dès son
+                                plus jeune âge, Wardell manifeste un intérêt profond pour l’art et
+                                la culture populaire. après des études à la célèbre école d’art de
+                                la ville, il trouve rapidement sa voie dans l’expression artistique
+                                à travers des techniques audacieuses et innovantes. Ses premières
+                                oeuvres sont marquées par une utilisation intense de la couleur, des
+                                motifs répétitifs et une exploration approfondie de l’iconographie
+                                pop.
+                            </p>
+                        </div>
+                        <div class="Bloc2eRangee BlocImage">
+                            <img src="images/warhol 2.png" alt="autoportrait coloré de l'artiste" />
+                            <p>"Autoportrait n.37" Sérigraphie,<br />90x90, 2008</p>
+                        </div>
+                        <div class="Bloc3eRangee BlocImage">
+                            <img src="images/warhol 1.png" alt="tâches de couleurs" />
+                            <p>
+                                "Doby Serie" Sérigraphie,<br />
+                                100x115, 1995
+                            </p>
+                        </div>
+  
+                    </div>
+                    <div class="Rangee2 Rangee">
+                        <div class="Bloc1ereRangee BlocImage">
+                            <p>
+                                Influencé par l’esthétique de la société de consommation et la
+                                célébration des icônes de la culture populaire, Wardell développe un
+                                style unique qui allie une approche contemporaine à une esthétique
+                                rétro. Ses toiles et ses oeuvres graphiques sont caractérisés par
+                                des couleurs vives, des motifs contrastés et une composition
+                                dynamique. A la fin des années 1990 et au début des années 2000,
+                                Alex Wardell attire l’attention de la scène artistique new-yorkaise
+                                avec sa série “Néo-Icônes”, qui revisite les figures emblématiques
+                                de la culture pop des décennies précédentes. Cette série audacieuse
+                                et captivante consolide sa réputation en tant qu’artiste novateur et
+                                audacieux.
+                            </p>
+                        </div>
+                        <div class="Bloc2eRangee BlocImage">
+                            <img src="images/warhol 4.png" alt="autoportrait"/>
+                            <p>
+                                "Autoportrait n.6" Huile sur toile,<br />
+                                60x60, 1998
+                            </p>
+                        </div>
+                        <div class="Bloc3eRangee BlocImage">
+                            <img src="images/warhol 3.png" alt="boites de conserves" />
+                            <p>
+                                "Can Serie", Sérigraphie,<br />
+                                80x80, 2000
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="Rangee3 Rangee">
+                        <div class="Bloc1ereRangee BlocImage">
+                            <p>
+                                Au fil des années, Wardell élargit son champ d’exploration
+                                artistique, intégrant des éléments de la culture numérique et de la
+                                technologie contemporaine dans son travail. Ses expositions à
+                                travers le monde reçoivent un accueil enthousiaste, attirant des
+                                amateurs d’art de tous horizons. Aujourd’hui, Alex Wardell continue
+                                d’explorer de nouvelles frontières artistiques, restant fidèle à son
+                                style distinctif tout en repoussant les limites de l’expression
+                                artistique contemporaine. Ses œuvres continuent de captiver et
+                                d’inspirer des générations d’amateurs d’art à travers le monde.
+                                Prenez date le 21 novembre, date du vernissage de la nouvelle
+                                exposition, durant laquelle nous aurons l’honneur de recevoir Alex
+                                Wardell, lui-même qui viendra nous raconter plus en détail ses
+                                œuvres et son parcours.
+                            </p>
+                            <p class="boldText">
+                                Prenez date le 21 novembre, date du vernissage de la nouvelle
+                                exposition, durant laquelle nous aurons l’honneur de recevoir Alex
+                                Wardell, lui-même qui viendra nous raconter plus en détail ses
+                                œuvres et son parcours.
+                            </p>
+                        </div>
+                        <div class="Bloc2eRangee BlocImage">
+                            <img src="images/warhol 6.png" alt="Ordinateurs colorés "/>
+                            <p>
+                                "“Computer fever”, Huile sur toile,<br />
+                                30 x 30, 1998
+                            </p>
+                        </div>
+                        <div class="Bloc3eRangee BlocImage">
+                            <img src="images/warhol 5.png" alt=" sériegraphie de Marylin Monroe" />
+                            <p>
+                                “Society”, Sériegraphie<br />
+                                sur toile, 73x60, 1667
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+       
+
+
+
+
+
+
+
+                /*--------PRESTATIONS-------*/
+<div class="subHeader">
+                    <p>
+                        Dans notre galerie d'art, nous nous engageons à vous présenter des œuvres
+                        authentiques reflétant nos valeurs fondamentales. Tout au long de cette
+                        page, vous rencontrerez nos nombreuses œuvres mise en vente, soit par
+                        particulier soit par mise en enchère avec emprunts possibles. Pour toute
+                        information, veuillez nous contacter sur la rubrique Contact.
+                    </p>
+                </div>
+                <div class="presentationContainer containerAcquisitions">
+                    <div class="presentationContainerTitle">
+                        <p>Acquisitions</p>
+                    </div>
+                    <div class="mainContentContainer">
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/cubism 1.png" alt="peinture" />
+                                <div class="imgsContainerTitleContainer">
+                                    <p>MIS EN ENCHERE</p>
+                                </div>
+                            </div>
+                            <p class="mainTextBolder">Prix de départ : 30 000 000$</p>
+                            <p class="mainText">
+                                Possédé par la galerie depuis une dizaine d’années, le tableau
+                                “Perspectives cubiques”(1956) de Paolo Picasio est l’un de ces
+                                derniers de sa période cubiste.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/monet1.jpg" alt="peinture" />
+                                <div class="imgsContainerTitleContainer">
+                                    <p>MIS EN ENCHERE</p>
+                                </div>
+                            </div>
+                            <p class="mainTextBolder">Prix de départ : 7 000 000$</p>
+                            <p class="mainText">
+                                Véritable coup de coeur des fréquents galeristes, l'oeuvre
+                                 “Provence”(1882) était pourtant détesté par Claudine Marais, 
+                                 son artiste qui l'a jugé beaucoup trop terne.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/cubism 3.png" alt="peinture" />
+                                <div class="imgsContainerTitleContainer">
+                                    <p>NON DISPONIBLE</p>
+                                </div>
+                            </div>
+                            <p class="mainTextBolder">Vendu pour 115 000 000$</p>
+                            <p class="mainText">
+                                Oeuvre référente de Paolo Picasio, “Rêveries cubiques”(1945) constitue 
+                                un réel pas en avant vers le néo-cubisme dont l'artiste était le maître.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/Soutine1.png" alt="peinture" />
+                            </div>
+                            <p class="mainTextBolder">Valeur : 200 000$</p>
+                            <p class="mainText">
+                                Isodor Sourine dépeint par ce tableau”Fugue passionnée”(1921) 
+                                l'enfance tourmentée qu'il subit avec une certaine finesse qui 
+                                lui est propre dans ses coups de pinceaux réalisés au millimètre près.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/Soutine4.png" alt="peinture" />
+                                <div class="imgsContainerTitleContainer">
+                                    <p>MIS EN ENCHERE</p>
+                                </div>
+                            </div>
+                            <p class="mainTextBolder">Prix de départ : 350 000$</p>
+                            <p class="mainText">
+                                Chef d'oeuvre de son temps, le tableau “Vachtopus” (1936) 
+                                de Isodor Sourine a rendu le peintre connu de tous 
+                                mais l'a surtout plongé dans la folie
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/Dali1.png" alt="peinture" />
+                            </div>
+                            <p class="mainTextBolder">Valeur : 6 500 000$</p>
+                            <p class="mainText">
+                                Possédant plusieurs muses, Silvio Dila s'amuse par l'abstrait cette fois-ci 
+                                avec le tableau “Lysandra”(1952) à dépeindre sa favorite réalisant elle-même 
+                                un portrait du peintre.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="presentationContainer containerAcquisitions">
+                    <div class="presentationContainerTitle">
+                        <p>Emprunts</p>
+                    </div>
+                    <div class="mainContentContainer">
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/Dali2.png" alt="peinture" />
+                            </div>
+                            <p class="mainTextBolder">Prix de l'emprunt : 10 000$/J</p>
+                            <p class="mainText">
+                                Par ce tableau, Dila a provoqué les passions par cette magnifique réprésentation 
+                                du prophète “Moïse”(1941) dans une sphère dorée réprésentant le peuple juif le suivant.
+                                 Ce tableau fût d'ailleurs volé par le régime nazi au main du peintre la même année.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/Soutine3.png" alt="peinture" />
+                            </div>
+                            <p class="mainTextBolder">Prix de l'emprunt 1000$/J</p>
+                            <p class="mainText">
+                                “Harmonie émotionnelle”(1934) de Sourine est une ode à l'enfance et surtout une 
+                                ode à la bêtise avec une forme d'insouciance des personnages souhaitant rester 
+                                suspendus à ces couleurs.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/Dali3.png" alt="peinture" />
+                            </div>
+                            <p class="mainTextBolder">Prix de l'emprunt : 7 500$/J</p>
+                            <p class="mainText">
+                                “Le Génie incompris”(1946) est une toile reflétant la vision qu'a le peintre 
+                                Silvio Dila sur lui-même, se caractérisant comme un génie artistique.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/monet2.jpg" alt="peinture" />
+                                <div class="imgsContainerTitleContainer">
+                                    <p>NON DISPONIBLE<br />JUSQU’AU 31/11/23</p>
+                                </div>
+                            </div>
+                            <p class="mainTextBolder">Prix de l'emprunt : 6000$/J</p>
+                            <p class="mainText">
+                                Les “Nymphéas de printemps” (1896) de Claudine Marais constitue un des premiers jets 
+                                des nombreuses planches qu'elle va réalisé tout au long de sa carrière sur les Nymphaeaceae.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/cubism 2.png" alt="peinture" />
+                            </div>
+                            <p class="mainTextBolder">Prix de l'emprunt : 20 000$/J</p>
+                            <p class="mainText">
+                                Valeur sûre du monde artistique “Femme aux milles masques”(1951) 
+                                est la seule œuvre de Picasio à avoir été distribué sur tous les continents,
+                                 même l'Antarctique.
+                            </p>
+                        </div>
+                        <div class="mainContentContainerEachCells">
+                            <div class="eachCellsImgsContainer">
+                                <img src="images/Lhote style 1.png" alt="peinture" />
+                                <div class="imgsContainerTitleContainer">
+                                    <p>NON DISPONIBLE<br />JUSQU’AU 26/03/24</p>
+                                </div>
+                            </div>
+                            <p class="mainTextBolder">Prix de l'emprunt : 750$/J</p>
+                            <p class="mainText">
+                                Andie Thole à travers “Architecture de l'âme”(1948) nous relate 
+                                avec ses formes précises et ses couleurs sans équivoque son passé sur 
+                                les îles coloniales françaises.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+
+
+
+
+
+
+            
+                /*-------CONTACT-------*/
+
+            
+                <main class="mainContainer">
+                    <div class="eachContainer container01">
+                        <div class="titleContainer">
+                            <h1>Horaires</h1>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="eachContentContainer01 eachContentContainer">
+                                <ul>
+                                    <li>Mardi de 10h à 19h</li>
+                                    <li>Mercredi de 10h à 19h</li>
+                                    <li>Jeudi de 10h à 19h</li>
+                                    <li>Vendredi de 10h a 15h</li>
+                                </ul>
+                                <p>Les dernières admissions se font une heure avant la fermeture.</p>
+                            </div>
+                            <div class="eachContentContainer02 eachContentContainer">
+                                <img src="images/devanture dedal.jpg" alt="visite" />
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="eachContainer container02">
+                        <div class="titleContainer">
+                            <h1>Intéressé par l’une de nos œuvres ?</h1>
+                        </div>
+                        <div class="contentContainer">
+                            <p>
+                                Dans le cas où vous souhaiteriez acheter l’une des œuvres présentes sur
+                                notre site, n’hésitez pas à nous contacter par mail ou par téléphone afin
+                                d’organiser une rencontre avec l’oeuvre.
+                            </p>
+                            <p>
+                                Particulier ou professionnel, vous pouvez louer les oeuvres qui vous
+                                intéressent au prix affiché. <br />Possibilité de faire un geste commercial
+                                si lot d’oeuvres.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="eachContainer container03">
+                        <div class="titleContainer">
+                            <h1>Newsletter</h1>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="eachContentContainer01 eachContentContainer">
+                                <p>
+                                    Inscrivez vous à notre newsletter pour vous tenir informé de notre
+                                    actualité et des expositions à venir en avant première. Vous pourrez
+                                    également bénéficier d’invitations VIP aux vernissages que propose que
+                                    la galerie.<br />
+                                    Vous pouvez choisir de recevoir la newsletter par mail ou en format
+                                    papier dans votre boite aux lettres
+                                </p>
+                                <div class="formInsideContainer03">
+                                    <form>
+                                        <div>
+                                            <label for="fname">Nom :</label>
+                                            <input type="text" id="fname" name="fname" />
+                                        </div>
+                                        <div>
+                                            <label for="name">Prénom :</label>
+                                            <input type="text" id="name" name="name" />
+                                        </div>
+                                        <div>
+                                            <label for="age">Age :</label>
+                                            <input type="text" id="age" name="age" />
+                                        </div>
+                                        <div>
+                                            <label for="adress">Adresse :</label>
+                                            <input type="text" id="adress" name="adress" />
+                                        </div>
+                                        <div>
+                                            <label for="phone">Numéro de téléphone :</label>
+                                            <input type="text" id="phone" name="phone" />
+                                        </div>
+                                        <div>
+                                            <label for="newsletter">Format de la Newsletter :</label>
+                                            <input type="text" id="newsletter" name="newsletter" />
+                                        </div>
+                                        <div class="submitButton">
+                                            <button type="submit">Envoyer</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="eachContentContainer02 eachContentContainer">
+                                <img src="images/newsletter.jpg" alt="Newsletter du site" />
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="eachContainer container04">
+                        <div class="titleContainer">
+                            <h1>Où et comment nous rejoindre</h1>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="eachContentContainer01 eachContentContainer">
+                                <div class="firstPartText textPart">
+                                    <p>10 Rue de la République 75000 Paris - France</p>
+                                </div>
+                                <div class="secondPartText textPart">
+                                    <p>Lignes de bus à proximité de cette adresse :</p>
+                                    <ul>
+                                        <li>C6, 45, 78</li>
+                                    </ul>
+                                    <p>Lignes de métro a proximité :</p>
+                                    <ul>
+                                        <li>Ligne 13 arrêt Vaneau</li>
+                                        <li>Ligne 10 arrêt Duroc</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="eachContentContainer02 eachContentContainer">
+                                <img
+                                    src="images/plan.png"
+                                    alt="Image plan google pour accéder à la galeries"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+
+
+            
+
+    /*-------FOOTER-------*/
+
+            
+        <footer>
+            <div class="mainContentFooter">
+                <div class="leftSideFooterContainer">
+                    <div class="leftSideFooterImgContainer">
+                        <img src="images/oldmask.png" alt="logo" />
+                    </div>
+                    <div class="leftSideFooterTextContainer">
+                        <p>DEDAL DES COULEURS</p>
+                        <ul>
+                            <li>Adresse : 10 rue de la république, 75000 Paris</li>
+                            <li>Tél : 01.63.45.85.56</li>
+                            <li>Email : dedal@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="centerFooterContainer">
+                    <div class="centerFooterSocialIconContainer">
+                        <img src="images/twitter.svg" />
+                        <p>Twitter</p>
+                    </div>
+                    <div class="centerFooterSocialIconContainer">
+                        <img src="images/facebook.svg" />
+                        <p>Facebook</p>
+                    </div>
+                    <div class="centerFooterSocialIconContainer">
+                        <img src="images/youtube.svg" />
+                        <p>Youtube</p>
+                    </div>
+                </div>
+                <div class="rightFooterContainer">
+                    <p>Partenaires du musée</p>
+                    <img src="images/LOGO_VP.png" />
+                    <img src="images/logoministere.png" />
+                </div>
+            </div>
+            <div class="lastPartFooter">
+                <div class="mentionLegalContainer">
+                    <p>© 2023 DEDAL DES COULEURS</p>
+                    <p>MENTIONS LÉGALES</p>
+                    <p>PLAN DU SITE</p>
+                </div>
+                <div class="lastPartFooterTextContainer">
+                    <i class="fab fa-facebook-f size"></i>
+                    <i class="fab fa-twitter size"></i>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+</html>
